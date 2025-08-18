@@ -1,5 +1,0 @@
-?- (pinguino, X).
-
-?- comida(X).
-
-?- ave(loro).
