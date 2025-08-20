@@ -1,0 +1,7 @@
+1. ?- persona(X).
+2. motivo(X, _) :- persona(X).
+3. estuvo(X, biblioteca) :- persona(X).
+4. estuvo(X, biblioteca) :- persona(X) , motivo(X, _).
+5. acceso(X, cuerda).
+6. acceso(X, cuerda):-motivo(X, deuda), estuvo(X, biblioteca). 
+7. motivo(X, deuda), estuvo(X, biblioteca), acceso(X, cuerda).
